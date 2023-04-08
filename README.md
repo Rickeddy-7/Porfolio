@@ -2,7 +2,7 @@
 
 - 👀 I’m interested in full stack development and AI. 
 
-- 🌱 I’m currently learning Python, JavaScript and C# and once i've mastered them i'll then move onto others like Swift, R and Kotlin.
+- 🌱 I’m currently learning Python, JavaScript and Java.
 
 - 💞️ I’m looking to collaborate on projects of all natures, a good developer always looks to expand his skills and grow!
 
