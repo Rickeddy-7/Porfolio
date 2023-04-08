@@ -1,4 +1,4 @@
-- 👋 Hi, I’m @Rickeddy-7. Im a 22 year old self-taught developer from South Africa and honestly I never really imagined myself in the tech space, let alone coding! I have, however, always been intrigued by technologies and how they work to simpliy our everyday lives.
+- 👋 Hi, I’m @Rickeddy-7. Im a 22 year old self-taught developer from South Africa and honestly I never really imagined myself in the tech space, let alone coding! I have, however, always been intrigued by technology and how it works to simplify our everyday lives.
 
 - 👀 I’m interested in full stack development and AI. 
 
