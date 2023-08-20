@@ -1,8 +1,8 @@
-- 👋 Hi, I’m @Rickeddy-7. Im a 22 year old self-taught developer from South Africa and honestly I never really imagined myself in the tech space, let alone coding! I have, however, always been intrigued by technology and how it works to simplify our everyday lives.
+- 👋 Hi, I’m Rickeddy Mpofu. Im a software developer and data scientist living in the heart of Johannesburg.
 
-- 👀 I’m interested in full stack development and AI. 
+- 👀 I’m interested in all things technology. 
 
-- 🌱 I’m currently learning Python, JavaScript and Java.
+- 🌱 My technical tools include: Python, Java, SQL, HTML&CSS, JavaScript.
 
 - 💞️ I’m looking to collaborate on projects of all natures, a good developer always looks to expand his skills and grow!
 
