@@ -1,8 +1,4 @@
-- 👋 Hi, I’m Rickeddy Mpofu. Im a software developer and data scientist living in the heart of Johannesburg.
+This is my very own, personal porfolio website built from the ground up. With it I aim to showcase all my technical abilities so I can paint a picture of what I can bring to the table should any individual and/or entity wish to work with me.
 
-- 👀 I’m interested in all things technology. 
 
-- 🌱 My technical tools include: Python, Java, SQL, HTML&CSS, JavaScript.
-
-- 💞️ I’m looking to collaborate on projects of all natures, a good developer always looks to expand his skills and grow!
 
