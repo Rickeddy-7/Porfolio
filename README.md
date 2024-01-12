@@ -1,6 +1,7 @@
-<img src="https://github.com/7oSkaaa/7oSkaaa/blob/main/Images/about_me.gif?raw=true" width="30px">
 
-<h1 align="center">Welcome to my Portfolio! I'm Rickeddy Mpofu</h1>
+<h1 align="center">Welcome to my Portfolio! I'm Rickeddy Mpofu
+<img src="https://github.com/7oSkaaa/7oSkaaa/blob/main/Images/about_me.gif?raw=true" width="30px">
+</h1>
 
 <p align="center">
   <a href="https://github.com/DenverCoder1/readme-typing-svg">
