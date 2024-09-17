@@ -46,7 +46,7 @@ h3 {
     align-items: center;
 }
 
-.btn-box a:hover::before{
+/* .btn-box a:hover::before{
     content: '';
     top: 0;
     left: 0;
@@ -60,7 +60,7 @@ h3 {
 .btn-box a:hover::before{
     width: 100%;
     color: blue;
-}
+} */
 
 .btn-box{
     width: 600px;
@@ -70,59 +70,3 @@ h3 {
     display: inline-flex;
 } 
 
-.background{
-    /* display: inline-block; */
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 5px;
-    z-index: -1;
-    font-size: 5rem;
-    opacity: 0.2;
-    pointer-events: none;
-    color: gray;
-}
-
-.background p{
-    /* display: flex; */
-    flex-direction: column;
-    margin: 0.7rem;
-    white-space: nowrap;
-    width: 800px;
-    text-overflow: ellipsis;
-}
-
-.right{
-    animation: moveTextRight 100s linear infinite;
-    transition: 0s;
-}
-
-@keyframes moveTextRight {
-    0% { 
-        transform-origin: 0%;
-        transform: translateX(-50%); 
-    }
-    /* 100% { transform: translateX(5%); } */
-}
-
-.left{
-    animation: moveTextLeft 100s linear infinite;
-}
-
-@keyframes moveTextLeft {
-    0% {
-        /* transform-origin: 100%;  */
-        transform: translateX(50%);
-    }
-    /* 100% { 
-        transform: translateX(-5%); 
-    } */
-}
-/* 
-.background p[id="1"]{color: red;}
-.background p[id="2"]{color: orange;}
-.background p[id="3"]{color: yellow;}
-.background p[id="4"]{color: green;}
-.background p[id="5"]{color: blue;}
-.background p[id="6"]{color: purple;} */

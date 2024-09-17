@@ -1,0 +1,55 @@
+
+.background{
+    /* display: inline-block; */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 5px;
+    z-index: -1;
+    font-size: 5rem;
+    opacity: 0.2;
+    pointer-events: none;
+    color: gray;
+}
+
+ul {
+   list-style: none;
+   flex-shrink: 0;
+   min-width: 100%;
+   display: flex; 
+}
+
+.right{
+    animation: moveTextRight 10s linear infinite;
+    transition: 0s;
+}
+
+@keyframes moveTextRight {
+    0% { 
+        transform-origin: 0%;
+        transform: translateX(-50%); 
+    }
+    /* 100% { transform: translateX(5%); } */
+}
+
+.left{
+    animation: moveTextLeft 100s linear infinite;
+}
+
+@keyframes moveTextLeft {
+    0% {
+        /* transform-origin: 100%;  */
+        transform: translateX(50%);
+    }
+    /* 100% { 
+        transform: translateX(-5%); 
+    } */
+}
+/* 
+.background p[id="1"]{color: red;}
+.background p[id="2"]{color: orange;}
+.background p[id="3"]{color: yellow;}
+.background p[id="4"]{color: green;}
+.background p[id="5"]{color: blue;}
+.background p[id="6"]{color: purple;} */

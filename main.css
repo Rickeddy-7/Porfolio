@@ -43,7 +43,7 @@ footer {
     width: 100%;
 }
 
-#rainbow:hover {
+/* #rainbow:hover {
     content: "";
     position: absolute;
     left: 0;
@@ -62,4 +62,4 @@ footer {
     width: 100%;
     background-color: red;
     transition: 0.3s ease-in;
-}
+} */
