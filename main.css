@@ -3,18 +3,6 @@ body {
     font-family: Courier, monospace;
 }
 
-.navbar a {
-    font-size: 35px;
-    padding: 15px;
-    text-decoration-line: none;
-    color: black;
-}
-
-.navbar {
-    text-align: right;
-    margin: 10px 20px;
-}
-
 header {
     position: fixed;
     top: 0;
@@ -33,45 +21,42 @@ header img {
     /* width: 25px; */
 }
 
+.btn-box {
+    justify-content: space-between;
+    align-items: center;
+    width: 600%;
+}
+
+.navbar a {
+    font-size: 35px;
+    padding: 15px;
+    text-decoration-line: none;
+    color: black;
+}
+
+.navbar {
+    text-align: right;
+    margin: 10px 20px;
+}
+
+/* a[id='home']:hover {color: rgb(33, 190, 33);}
+a[id='about']:hover {color: red;}
+a[id='projects']:hover {color: orange;}
+a[id='contact']:hover {color: rgb(35, 35, 255);} */
+
+.navbar a:hover {
+    font-weight: bold;
+}
+
+.active {
+    font-weight: bold;
+}
+
+
 footer {
     text-align: center;
     background-color: black;
     color: white;
     line-height: 1.6;
     width: 100%;
-}
-
-/* a[id='rainbow']:after {
-    content: "";
-    position: absolute;
-    left: 0;
-    bottom: -10px;
-    height: 3px;
-    width: 0;
-    background-color: red;
-    transition: 0.3s;
-}
-
-a[id='rainbow']:hover:after {
-    content: ""; */
-    /* position: absolute;
-    left: 0;
-    height: 3px;
-    width: 100%;
-    transition: 0.3s ease-in;
-} */
-
-a[id='home']:hover {color: green;}
-a[id='about']:hover {color: red;}
-a[id='projects']:hover {color: orange;}
-a[id='contact']:hover {color: blue;}
-
-.navbar a:hover {
-    font-weight: bold;
-}
-
-.btn-box {
-    justify-content: space-between;
-    align-items: center;
-    width: 600%;
 }

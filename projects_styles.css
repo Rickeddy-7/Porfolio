@@ -1,0 +1,4 @@
+a[id='home']:hover {color: rgb(33, 190, 33);}
+a[id='about']:hover {color: red;}
+a[id='projects']:hover {color: orange;}
+a[id='contact']:hover {color: rgb(35, 35, 255);}

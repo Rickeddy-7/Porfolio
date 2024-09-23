@@ -29,8 +29,7 @@ ul {
 
 @keyframes moveTextRight {
     0% { 
-        /* transform-origin: 0%; */
-        transform: translateX(-50%); 
+        transform: translateX(-20%); 
     }
 }
 
@@ -40,14 +39,13 @@ ul {
 
 @keyframes moveTextLeft {
     0% {
-        /* transform-origin: 40%;  */
-        transform: translateX(50%);
+        transform: translateX(20%);
     }
 }
-/* 
-.background p[id="1"]{color: red;}
-.background p[id="2"]{color: orange;}
-.background p[id="3"]{color: yellow;}
-.background p[id="4"]{color: green;}
-.background p[id="5"]{color: blue;}
-.background p[id="6"]{color: purple;} */
+
+/* .background li[id="1"]{color: red;}
+.background li[id="2"]{color: orange;}
+.background li[id="3"]{color: yellow;}
+.background li[id="4"]{color: green;}
+.background li[id="5"]{color: blue;}
+.background li[id="6"]{color: purple;} */
