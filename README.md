@@ -20,7 +20,8 @@
 <img align="left" alt="JavaScript" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" />
 <img align="left" alt="Python" width="30px" style="padding-right:10px;" src="https://github.com/devicons/devicon/blob/master/icons/python/python-original.svg" />
 <img align="left" alt="Sheets" width="30px" style="padding-right:10px;" src="https://w7.pngwing.com/pngs/878/917/png-transparent-microsoft-excel-icon.png" />
-<img align="left" alt="PowerBI" width="30px" style="padding-right:10px;" src="https://1000logos.net/microsoft-power-bi-logo/" />
+<img align="left" alt="PowerBI" width="30px" style="padding-right:10px;" src="https://static-00.iconduck.com/assets.00/power-bi-icon-384x512-bujnuaon.png" />
+<br/>
 <img align="left" alt="Looker" width="30px" style="padding-right:10px;" src="https://www.svgrepo.com/show/354012/looker-icon.svg" />
 <img align="left" alt="AWS" width="30px" style="padding-right:10px;" src="https://cdn.iconscout.com/icon/free/png-256/free-aws-logo-icon-download-in-svg-png-gif-file-formats--cloud-computing-network-server-database-brand-pack-logos-icons-1583149.png" />
 <img align="left" alt="Jupyter Notebooks" width="30px" style="padding-right:10px;" src="https://numfocus.org/wp-content/uploads/2016/07/jupyter-logo-300.png" />
