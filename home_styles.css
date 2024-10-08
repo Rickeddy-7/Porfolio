@@ -64,10 +64,47 @@ h3 {
 } */
 
 .btn-box{
-    width: 300px;
+    width: 400px;
     height: 50px;
     margin: 0;
     justify-content: space-around;
-    display: inline-flex;
+    display:inline;
 } 
+
+.btn-box .button {
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    /* float: left; */
+    text-decoration: none;
+    /* border: 3px solid black; */
+    margin: 0 5px;
+    overflow: hidden;
+    background: lightgrey;
+    border-radius: 50px;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-out;
+  }
+
+.btn-box .button:hover {
+    width: 190px;
+}
+
+.btn-box .button span {
+    /* border-color: black; */
+    color: black;
+    font-family: Courier, monospace;
+    font-size: 25px;
+    font-weight: bold;
+    
+}
+
+.btn-box span:hover {
+    margin-bottom: 30px;
+    height: 50px;
+}
+
+
+
+
 
