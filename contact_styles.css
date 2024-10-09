@@ -1,12 +1,86 @@
 
 a[id='home']:hover {color: rgb(33, 190, 33);}
 a[id='about']:hover {color: red;}
-a[id='projects']:hover {color: orange;}
+a[id='projects']:hover {color: darkorange;}
 a[id='contact']:hover {color: rgb(35, 35, 255);}
 
 body {
     background-image: url(https://images.unsplash.com/photo-1499159058454-75067059248a?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y29udGFjdCUyMGZvcm18ZW58MHx8MHx8fDA%3D);
     background-repeat: no-repeat;
-    /* background-size: 100%; */
     background-size: cover;
+}
+
+.contact input, button {
+    font-family: Courier, monospace;
+}
+
+.contact button {
+    font-weight: bold;
+    border: none;
+    background-color: transparent;
+    transform: rotate(25deg);
+}
+
+.contact button img {
+    width: 30px;
+    transition: .5s;
+}
+
+.contact button img:hover {
+    width: 40px;
+    transition: .5s;
+    cursor: pointer;
+    transform: rotate(-25deg);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    /* gap: 20px; */
+}
+
+form h2 {
+    width: 400px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.contact {
+    width: 400px;
+    height: 400px;
+    margin-left: 42%;
+    margin-top: 7%;
+    align-items: end;
+}
+
+.contact input {
+    width: 400px;
+    height: 40px;
+    border-radius: 10px;
+    border-width: 3px;
+    outline: none;
+    margin-bottom: 20px;
+}
+
+.contact input::placeholder {
+    padding-left: 5px;
+    font-style: italic;
+}
+
+.contact input[name="message"] {
+    height: 150px;
+    margin-bottom: 5px;
+}
+
+.contact input[name="message"]:focus {
+    border-color: rgb(35, 35, 255);
+}
+
+.contact input[name="email"]:focus {
+    border-color: darkorange;
+}
+
+.contact input[name="name"]:focus {
+    border-color: rgb(33, 190, 33);
 }

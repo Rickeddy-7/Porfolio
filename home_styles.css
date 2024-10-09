@@ -96,7 +96,7 @@ h3 {
     font-family: Courier, monospace;
     font-size: 25px;
     font-weight: bold;
-    
+    text-wrap: nowrap;
 }
 
 .btn-box span:hover {
