@@ -1,24 +1,13 @@
 
-body {
-    font-family: Courier, monospace;
-}
+body {font-family: Courier, monospace;}
 
 header {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    /* margin: 10px 20px; */
-    display: flex;
     justify-content: space-between;
     align-items: center;
-    /* background-color: gray; */
-    /* z-index: -1; */
-}
-
-header img {
-    text-align: left;
-    /* width: 25px; */
 }
 
 .btn-box {
@@ -39,18 +28,11 @@ header img {
     margin: 10px 20px;
 }
 
-/* a[id='home']:hover {color: rgb(33, 190, 33);}
-a[id='about']:hover {color: red;}
-a[id='projects']:hover {color: orange;}
-a[id='contact']:hover {color: rgb(35, 35, 255);} */
-
 .navbar a:hover {
     font-weight: bold;
 }
 
-.active {
-    font-weight: bold;
-}
+.active {font-weight: bold;}
 
 
 footer {
