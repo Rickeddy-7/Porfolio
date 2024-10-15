@@ -9,7 +9,7 @@ a[id='contact']:hover {color: rgb(35, 35, 255);}
     position: relative;
     max-width: 90%;
     margin: 40px auto;
-    /* background-color: yellow; */
+    /* background-color: #0A0A0A; */
 }
 
 .timeline::after {
@@ -39,7 +39,7 @@ a[id='contact']:hover {color: rgb(35, 35, 255);}
     left: 11%;
 }
 
-.checkpoint img {
+.logo {
     position: absolute;
     background-color: white;
     width: 60px;
@@ -49,6 +49,7 @@ a[id='contact']:hover {color: rgb(35, 35, 255);}
     left: -45px;
     top: 50px;
     z-index: 10;
+    /* animation: fade-in 1s ease-in forwards; */
 }
 
 html {scroll-behavior: smooth;}
@@ -65,7 +66,29 @@ html {scroll-behavior: smooth;}
     transition: .5s;
 }
 
+@keyframes fade-in {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
 .button img:hover {
     background-color: rgb(33, 190, 33);   
     transition: .5s;
 }
+
+.hard-skills img {
+    height: 30px;
+    width: 30px;
+}
+
+.indent, .hard-skills {margin-left: 50px;}
+
+.indent h3 {margin: 10px 0; }
+
+.todo {
+    color: rgb(36, 182, 219);
+    font-weight: bold;
+}
+.comment {color: green;}
+.keywords {color: purple;}
+.string {color: #db7b1c;}
