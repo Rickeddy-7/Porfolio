@@ -4,14 +4,28 @@ a[id='about']:hover {color: red;}
 a[id='projects']:hover {color: orange;}
 a[id='contact']:hover {color: rgb(35, 35, 255);}
 
+.journey {
+    display: inline-block;
+    margin-left: 10%;
+}
+h1 {
+    margin: 0;
+    border-right: 5px solid;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    animation:
+        typing-effect 2s steps(27),
+        cursor .4s step-end infinite alternate;
+}
+@keyframes typing-effect {from {width: 0;}}
+@keyframes cursor {50% {border-color: transparent;}}
 
 .timeline {
     position: relative;
     max-width: 90%;
     margin: 40px auto;
-    /* background-color: #0A0A0A; */
 }
-
 .timeline::after {
     content: '';
     position: absolute;
@@ -24,7 +38,6 @@ a[id='contact']:hover {color: rgb(35, 35, 255);}
     z-index: -1;
     animation: timeline_animation 7s forwards;
 }
-
 @keyframes timeline_animation {
     0% {height: 0;}
     100% {height: 100%;}
@@ -54,11 +67,16 @@ a[id='contact']:hover {color: rgb(35, 35, 255);}
 
 html {scroll-behavior: smooth;}
 
+.media img {
+    width: 24%;
+    margin-right: 10px;
+}
+.media [id='a4'] {width: 12%;}
+
 .button {
     display: flex;
     justify-content: flex-end;
 }
-
 .button img {
     height: 40px;
     width: 40px;
@@ -66,10 +84,10 @@ html {scroll-behavior: smooth;}
     transition: .5s;
 }
 
-@keyframes fade-in {
+/* @keyframes fade-in {
     0% {opacity: 0;}
     100% {opacity: 1;}
-}
+} */
 
 .button img:hover {
     background-color: rgb(33, 190, 33);   
