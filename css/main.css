@@ -1,5 +1,8 @@
 
-body {font-family: Courier, monospace;}
+body {
+    font-family: Courier, monospace;
+    background-color: #d3d3d3;
+}
 
 header {
     position: fixed;
