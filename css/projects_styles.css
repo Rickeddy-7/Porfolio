@@ -2,3 +2,91 @@ a[id='home']:hover {color: rgb(33, 190, 33);}
 a[id='about']:hover {color: red;}
 a[id='projects']:hover {color: orange;}
 a[id='contact']:hover {color: rgb(35, 35, 255);}
+
+.headline {
+    display: inline-block;
+    margin-left: 10%;
+}
+h1 {
+    margin: 0;
+    border-right: 5px solid;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    animation:
+        typing-effect 2s steps(25),
+        cursor .4s step-end infinite alternate;
+}
+@keyframes typing-effect {from {width: 0;}}
+@keyframes cursor {50% {border-color: transparent;}}
+
+.projects {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+.project {
+    margin: 20px 0;
+    width: 400px;
+    height: 250px;
+    position: relative;
+    transition: transform 1s;
+    transform-style: preserve-3d;
+}
+.project:hover {
+    transform: rotateY(180deg);
+}
+
+.front, .back {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    position: absolute;
+}
+
+.front img{
+    width: 400px;
+    height: 250px;
+    border-radius: 15px;
+}
+
+.back {
+    text-align: center;
+    background-color: #3f3f3f;
+    transform: rotateY(180deg);
+    backface-visibility: hidden;
+}
+.back p {
+    text-align: start;
+    padding: 0 15px;
+    margin-top: 0;
+}
+.back button {
+    border: none;
+    border: 2px solid darkgray;
+    border-radius: 15px;
+}
+.back button a {
+    color: black;
+    font-family: Courier, monospace;
+    text-decoration: none;
+    font-weight: bold;
+    transition: .5s;
+}
+.back button a::before {
+
+}
+.back button a:hover {letter-spacing: .1em;}
+.back button:hover {border: 2px solid orange;}
+.header img{
+    width: 45px;
+    height: 45px;
+    margin-top: 10px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-evenly;
+}
