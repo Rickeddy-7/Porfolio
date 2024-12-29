@@ -54,7 +54,7 @@ h1 {
 
 .back {
     text-align: center;
-    background-color: #3f3f3f;
+    background-color: white;
     transform: rotateY(180deg);
     backface-visibility: hidden;
 }
@@ -81,11 +81,11 @@ h1 {
 .back button a:hover {letter-spacing: .1em;}
 .back button:hover {border: 2px solid orange;}
 .header img{
-    width: 45px;
-    height: 45px;
+    width: 35px;
+    height: 35px;
     margin-top: 10px;
 }
-
+.header h2 {color: orange;}
 .header {
     display: flex;
     justify-content: space-evenly;
